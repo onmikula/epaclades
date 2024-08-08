@@ -9,7 +9,9 @@ The functions perform successively three basic tasks:
 2. classify_jplace classifies branches as belonging to clades, which are defined in a suitable data frame
 3. classify_sequences calculates probabilities of query sequences belonging to pre-specified clades
 
-In addition, root_jplace roots the tree (and modifies branch labels accordingly), using specified outgroup sequences
+In addition:
+root_jplace roots the tree (and modifies branch labels accordingly), using specified outgroup sequences
+plot.jplace shows the reference tree and highlights the most probable placements of query sequences
 
 The functions depend on R package ape (Paradis & Schliep 2019). 'plot.jplace' can save the plot as a .pdf file, the output of 'classify_sequences' can be saved as a tab-delimited file.
 
